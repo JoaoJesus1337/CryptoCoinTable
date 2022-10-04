@@ -1,0 +1,294 @@
+@media (prefers-color-scheme: dark) 
+{   
+	.table
+	{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	width: 80%;
+	
+	}
+
+	.navbar
+	{
+		margin-top: -20px;
+		margin-bottom: -20px;
+		padding-top: 30px;
+	}
+
+	.symbol
+	{
+	width: 27px;
+	}
+
+	#logo
+	{
+		margin-bottom: 15px;
+		width: 4rem;
+		height: inherit;
+		margin-right: 10px;
+	}
+
+	#tableContainer
+	{
+		overflow-x: auto;
+	}
+
+	#a:hover
+	{
+		color: #777;
+	}
+
+	.name, .symbol, .price, .marketcap, .variation, .volume24h
+	{
+		
+		font-weight: 700;
+	}
+
+	th
+	{
+		color: rgb(20, 192, 192);
+	}
+
+	.table>:not(:first-child)
+	{
+		border-top:2px solid white
+	}
+	#btnSearch
+	{
+		height: 40px; 
+		width: 30%; 
+		outline: none;
+		font-size: 1.0625rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: .3s;
+		color: white;
+		border-color: white;
+		background-color: black;
+	}
+		
+	#btnSearch:hover
+	{
+		background-color: #777;
+		border-color:#777;
+	}
+
+	.favorites 
+	{
+	color: rgba(255, 255, 0, 0.801);
+	}
+
+	.copyright 
+	{
+	background-color: rgba(0, 0, 0, 0.2);
+	}
+	
+	#error
+	{
+		text-align: center;
+		margin-top: 200px;
+	}
+	#error2
+	{
+		text-align: center;
+		margin-top: 200px;
+	}
+
+	#ImgCoin
+	{
+		margin-top: 150px;
+	}
+
+	.description-coin
+	{
+		padding: 50px;
+		padding-top: 30px;
+	}
+	.description-coin p
+	{
+		color: #ffffff;
+		text-align: justify;
+		font-size: 18px;
+		line-height: 1.6;
+		padding-top: 10px;
+	}
+
+	.details-coin
+	{
+		text-align: center;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.img-coin
+	{
+		text-align: center;
+		margin: 0px 0px 25px 0px;
+	}
+
+	.fa-star:before {
+		content: "\f005";
+		padding-left: 5px;
+	}
+
+	.like-btn
+	{
+		cursor: pointer;
+	}
+}
+
+@media (prefers-color-scheme: light) 
+{   
+	.table
+	{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	width: 80%;
+	
+	}
+
+	.navbar
+	{
+		margin-top: -20px;
+		margin-bottom: -20px;
+		padding-top: 30px;
+	}
+
+	.symbol
+	{
+	width: 27px;
+	}
+
+	#logo
+	{
+		margin-bottom: 15px;
+		width: 4rem;
+		height: inherit;
+		margin-right: 10px;
+	}
+
+	#tableContainer
+	{
+		overflow-x: auto;
+	}
+
+	#a:hover
+	{
+		color: #777;
+	}
+
+	.name, .symbol, .price, .marketcap, .variation, .volume24h
+	{
+		
+		font-weight: 700;
+	}
+
+	th
+	{
+		color: #777;
+	}
+
+	.table>:not(:first-child)
+	{
+		border-top:2px solid rgb(0, 0, 0)
+	}
+	#btnSearch
+	{
+		height: 40px; 
+		width: 30%; 
+		outline: none;
+		font-size: 1.0625rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: .3s;
+		color: white;
+		border-color: white;
+		background-color: black;
+	}
+		
+	#btnSearch:hover
+	{
+		background-color: #777;
+		border-color:#777;
+	}
+
+	.favorites 
+	{
+	color: rgba(255, 255, 0, 0.801);
+	}
+
+	.copyright 
+	{
+	background-color: rgba(0, 0, 0, 0.2);
+	}
+	
+	#error
+	{
+		text-align: center;
+		margin-top: 200px;
+	}
+	#error2
+	{
+		text-align: center;
+		margin-top: 200px;
+	}
+
+	#ImgCoin
+	{
+		margin-top: 150px;
+	}
+
+	.description-coin
+	{
+		padding: 50px;
+		padding-top: 30px;
+	}
+	.description-coin p
+	{
+		color: #000000;
+		text-align: justify;
+		font-size: 18px;
+		line-height: 1.6;
+		padding-top: 10px;
+	}
+
+	.details-coin
+	{
+		text-align: center;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.img-coin
+	{
+		text-align: center;
+		margin: 0px 0px 25px 0px;
+	}
+
+	.fa-star:before {
+		content: "\f005";
+		padding-left: 5px;
+	}
+
+	.like-btn
+	{
+		cursor: pointer;
+	}
+
+	.fa-facebook-f:before {
+		content: "\f39e";
+		color: blue;
+	}
+
+	.fa-twitter:before {
+		content: "\f099";
+		color: blue;
+	}
+
+	.fa-instagram:before {
+		content: "\f16d";
+		color: blue;
+	}
+}
