@@ -18,7 +18,10 @@ if (!fvt) {
     var fvtArr = [];
 
     localStorage.setItem('fvt', JSON.stringify(fvtArr));
+    fvt = JSON.parse(localStorage.getItem('fvt'));
 }
+
+
 
 //Function that calls the Coingecko Api and sets the data in the top 100 table
 function apiCall() {
