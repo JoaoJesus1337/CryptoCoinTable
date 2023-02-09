@@ -26,3 +26,11 @@
 ## Details Page
 
 ![Screenshot](ReadmMeImgs/3.jpg)
+
+<br>
+
+# CO-Author
+
+<br>
+
+[@FernandoVideira](https://github.com/FernandoJVideira)
